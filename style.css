@@ -1,0 +1,12 @@
+.navbar {
+    float: left;
+    background: grey;
+    height: 100%;
+    width: 200px;
+}
+
+.footer {
+    bottom: 0;
+    color: #ffff;
+
+}
