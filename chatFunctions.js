@@ -5,14 +5,11 @@ let text = document.getElementById("text");
 function submitChat() {
     let chatItem = document.createElement("li");
     chatItem.innerHTML = text.value;
-    // let writtenText = text.value;
     console.log(text.value);
     messages.appendChild(chatItem);
-    // chatItem.innerHTML(text.value);
-    // chatItem.appendChild(writtenText);
-    // messages.appendChild(chatItem);
 }
 
+//hello
 // var socket = io();
 // //addeventlistener
 // form.submit()
